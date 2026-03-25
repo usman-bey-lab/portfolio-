@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Usman Amjad | Portfolio</title>
+<link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous"/>
+<script src="https://unpkg.com/scrollreveal"></script>
+<link rel="stylesheet" href="src/style.css"/>
+</head>
+<body class="loading">
+
+  <!-- BOOT SCREEN -->
+<div class="boot-screen">
+  <div class="boot-logo">UA</div>
+  <div class="boot-line"></div>
+  <div class="boot-sub">Loading Portfolio</div>
+</div>
+
+<!-- NAV -->
+<nav class="navbar" id="navbar">
+  <a href="#hero" class="nav-logo"><span>Usman Amjad</span></a>
+  <ul class="nav-links">
+    <li><a href="#hero" class="nav-link active">Home</a></li>
+    <li><a href="#about" class="nav-link">About</a></li>
+    <li><a href="#skills" class="nav-link">Skills</a></li>
+    <li><a href="#projects" class="nav-link">Projects</a></li>
+    <li><a href="#certifications" class="nav-link">Certs</a></li>
+    <li><a href="#contact" class="nav-link">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-inner">
+
+    <!-- Center block -->
+    <div class="hero-center">
+      <h1 class="hero-name"><span id="typewriter"></span></h1>
+      <p class="hero-title">
+        Full-Stack Developer
+        <span class="divider"></span>
+        MERN &amp; Next.js
+        <span class="divider"></span>
+        TypeScript
+      </p>
+      <p class="hero-desc">
+        Computer Science student building scalable, type-safe web applications —
+        from RESTful API architecture to polished production frontends.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary"><i class="fas fa-code"></i> View Projects</a>
+        <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Contact</a>
+      </div>
+    </div>
+
+    <!-- Stats bar -->
+    <div class="hero-stats">
+      <div class="hero-stat-item">
+        <span class="hero-stat-num">2+</span>
+        <span class="hero-stat-label">Years Experience</span>
+      </div>
+      <div class="hero-stat-divider"></div>
+      <div class="hero-stat-item">
+        <span class="hero-stat-num">6+</span>
+        <span class="hero-stat-label">Projects Built</span>
+      </div>
+      <div class="hero-stat-divider"></div>
+      <div class="hero-stat-item">
+        <span class="hero-stat-num">4</span>
+        <span class="hero-stat-label">Certifications</span>
+      </div>
+      <div class="hero-stat-divider"></div>
+      <div class="hero-stat-item">
+        <span class="hero-stat-num">MERN</span>
+        <span class="hero-stat-label">Core Stack</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+
+      <div class="about-card">
+        <div class="profile-img-wrap">
+          <img src="assets/images/profile.jpg" alt="Usman Amjad"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <div class="profile-placeholder">UA</div>
+        </div>
+      </div>
+
+      <div class="about-text">
+        <h2 class="section-title">About Me</h2>
+        <p>I'm a <strong>dedicated Computer Science student</strong> at Virtual University of Pakistan
+        (graduating Jul 2026) and a practicing Full-Stack Developer with hands-on freelance experience.</p>
+        <p>My focus is end-to-end product delivery — from <strong>system architecture and RESTful API design</strong>
+        to secure authentication, responsive frontends, and deployment.</p>
+        <p>Actively seeking <strong>challenging engineering roles</strong> where I can contribute to impactful
+        products while growing across the full stack.</p>
+
+     
+
+        <div data-tabs>
+          <div class="tab-row">
+            <button class="tab-btn active" data-target="tab-exp">Experience</button>
+            <button class="tab-btn" data-target="tab-edu">Education</button>
+          </div>
+
+          <div id="tab-exp" class="timeline-section active">
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-period">2025 – Present</div>
+                <div class="timeline-role">Associate Developer</div>
+                <div class="timeline-org">Freelance Collaboration</div>
+                <ul class="timeline-bullets">
+                  <li>Developed MERN stack web applications with responsive frontends and robust REST APIs.</li>
+                  <li>Managed end-to-end workflows — requirements to deployment — across concurrent client engagements.</li>
+                  <li>Translated business requirements into technical specifications through direct client communication.</li>
+                </ul>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-period">Jul 2024 – Sep 2024</div>
+                <div class="timeline-role">IT Intern</div>
+                <div class="timeline-org">Punjab Beverages Co.</div>
+                <ul class="timeline-bullets">
+                  <li>Deployed and configured a Graylog server for centralized system logging and infrastructure observability.</li>
+                  <li>Produced setup documentation enabling the team to replicate configurations for future deployments.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div id="tab-edu" class="timeline-section">
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-period">Sep 2022 – Jul 2026</div>
+                <div class="timeline-role">B.Sc. Computer Science</div>
+                <div class="timeline-org">Virtual University of Pakistan</div>
+                <ul class="timeline-bullets">
+                  <li>
+                    Current CGPA: 3.21/4.00 , Relevant coursework: Data Structures & Algorithms, Web Technologies, OOP, Database Systems, Software Engineering.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <div class="section-label">What I Know</div>
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <div class="skill-card-icon"><i class="fas fa-layer-group"></i></div>
+        <div class="skill-card-title">Frontend</div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">React.js</span><span class="skill-pct">92%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-w="92"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">Next.js (SSR / SSG)</span><span class="skill-pct">85%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-w="85"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">TypeScript</span><span class="skill-pct">82%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-w="82"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">HTML5 / CSS3 / JS ES6+</span><span class="skill-pct">95%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-w="95"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-icon"><i class="fas fa-server"></i></div>
+        <div class="skill-card-title">Backend & Database</div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">Node.js / Express.js</span><span class="skill-pct">88%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-w="88"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">RESTful API Design</span><span class="skill-pct">90%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-w="90"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">MongoDB / Mongoose</span><span class="skill-pct">85%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-w="85"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">MongoDB Atlas</span><span class="skill-pct">80%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-w="80"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-icon"><i class="fas fa-shield-alt"></i></div>
+        <div class="skill-card-title">Auth & Security</div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">JWT Authentication</span><span class="skill-pct">88%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-w="88"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">bcrypt Password Hashing</span><span class="skill-pct">85%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-w="85"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">Helmet.js Security Headers</span><span class="skill-pct">80%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-w="80"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">Multer (File Upload)</span><span class="skill-pct">82%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-w="82"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card-icon"><i class="fas fa-tools"></i></div>
+        <div class="skill-card-title">Tools & Concepts</div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">Git / GitHub</span><span class="skill-pct">90%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-w="90"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">MVC Architecture</span><span class="skill-pct">88%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-w="88"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">Agile Workflows</span><span class="skill-pct">82%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-w="82"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-row"><span class="skill-name">Technical Documentation</span><span class="skill-pct">85%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-w="85"></div></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="tech-tags">
+      <span class="tech-tag">React.js</span><span class="tech-tag">Next.js</span>
+      <span class="tech-tag">TypeScript</span><span class="tech-tag">JavaScript ES6+</span>
+      <span class="tech-tag">Node.js</span><span class="tech-tag">Express.js</span>
+      <span class="tech-tag">MongoDB</span><span class="tech-tag">Mongoose</span>
+      <span class="tech-tag">MongoDB Atlas</span><span class="tech-tag">JWT</span>
+      <span class="tech-tag">bcrypt</span><span class="tech-tag">Helmet.js</span>
+      <span class="tech-tag">Multer</span><span class="tech-tag">HTML5</span>
+      <span class="tech-tag">CSS3</span><span class="tech-tag">Git</span>
+      <span class="tech-tag">GitHub</span><span class="tech-tag">MVC</span>
+      <span class="tech-tag">REST API</span><span class="tech-tag">SSR / SSG</span>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <div class="section-label">What I've Built</div>
+    <h2 class="section-title">Featured Projects</h2>
+    <p class="projects-intro">Production-grade applications across the MERN stack, Next.js, and TypeScript.</p>
+
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-img">
+          <img src="assets/images/project-thinkboard.png" alt="ThinkBoard"
+            onerror="this.style.display='none'"/>
+          <div class="project-img-placeholder">ThinkBoard</div>
+        </div>
+        <div class="project-body">
+          <div class="project-stack">
+            <span class="project-tag">React.js</span>
+            <span class="project-tag">Node.js</span>
+            <span class="project-tag">Express</span>
+            <span class="project-tag">MongoDB</span>
+          </div>
+          <h3 class="project-name">ThinkBoard</h3>
+          <p class="project-desc">Full-stack collaborative workspace with a modular, component-driven React.js frontend and secure RESTful API endpoints for real-time updates and user-generated content at scale. Backed by MongoDB's flexible schema for dynamic data structures.</p>
+          <div class="project-links">
+            <a href="https://github.com/usman-bey-lab/Thinkboard" target="_blank" class="project-link">
+              <i class="fab fa-github"></i> Repository
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img">
+          <img src="assets/images/project-shopper.png" alt="Shopper"
+            onerror="this.style.display='none'"/>
+          <div class="project-img-placeholder">Shopper</div>
+        </div>
+        <div class="project-body">
+          <div class="project-stack">
+            <span class="project-tag">MERN</span>
+            <span class="project-tag">Next.js</span>
+            <span class="project-tag">TypeScript</span>
+            <span class="project-tag">JWT</span>
+          </div>
+          <h3 class="project-name">Shopper — E-Commerce Platform</h3>
+          <p class="project-desc">Full-stack e-commerce storefront and admin dashboard with product listings, cart management, and order processing. Migrating to Next.js for SSR/SSG SEO gains. Full TypeScript codebase, JWT + bcrypt auth, Helmet security headers, and real-time inventory control panel.</p>
+          <div class="project-links">
+            <a href="https://github.com/usman-bey-lab/E-Commerce" target="_blank" class="project-link">
+              <i class="fab fa-github"></i> Repository
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img">
+          <img src="assets/images/project-groq-chatbot.png" alt="Groq AI Chatbot"
+            onerror="this.style.display='none'"/>
+          <div class="project-img-placeholder">Groq AI Chatbot</div>
+        </div>
+        <div class="project-body">
+          <div class="project-stack">
+            <span class="project-tag">React</span>
+            <span class="project-tag">Groq SDK</span>
+            <span class="project-tag">Llama 4</span>
+            <span class="project-tag">Tailwind</span>
+          </div>
+          <h3 class="project-name">Groq AI Chatbot</h3>
+          <p class="project-desc">A real-time AI chat app powered by Groq's Llama 4 Maverick model. Features multiple AI personas (Assistant, Teacher, Coder, Writer), animated typing indicators, message history, and a sleek dark UI built with React and Tailwind CSS.</p>
+          <div class="project-links">
+            <a href="https://github.com/usman-bey-lab/groq-ai-chatbot.git" target="_blank" class="project-link">
+              <i class="fab fa-github"></i> Repository
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+  <div class="container">
+    <div class="section-label">Credentials</div>
+    <h2 class="section-title">Certifications</h2>
+    <div class="certs-grid">
+      <div class="cert-card">
+        <div class="cert-icon"><i class="fas fa-code-branch"></i></div>
+        <div><div class="cert-name">Version Control</div><div class="cert-issuer">Coursera</div></div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-icon"><i class="fab fa-js"></i></div>
+        <div><div class="cert-name">Programming with JavaScript</div><div class="cert-issuer">Coursera</div></div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-icon"><i class="fas fa-desktop"></i></div>
+        <div><div class="cert-name">Introduction to Front-End Development</div><div class="cert-issuer">Coursera</div></div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-icon"><i class="fas fa-mobile-alt"></i></div>
+        <div><div class="cert-name">Digital Literacy: Using Mobile Devices</div><div class="cert-issuer">Cisco Networking Academy</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="section-label">Get In Touch</div>
+    <h2 class="section-title">Let's Connect</h2>
+    <div class="contact-inner">
+      <div>
+        <p class="contact-desc">I'm actively seeking full-stack engineering opportunities. Whether you have a project, a role, or just want to talk tech — I'd love to hear from you.</p>
+        <div class="contact-links">
+          <a href="mailto:usmanamjad987654321@gmail.com" class="contact-link-item">
+            <div class="contact-link-icon"><i class="fas fa-envelope"></i></div>
+            <div class="contact-link-text">
+              <div class="contact-link-label">Email</div>
+              <div class="contact-link-value">usmanamjad987654321@gmail.com</div>
+            </div>
+            <i class="fas fa-arrow-right contact-link-arrow"></i>
+          </a>
+          <a href="https://linkedin.com/in/muhammad-usman-amjad-2958a33a6" target="_blank" class="contact-link-item">
+            <div class="contact-link-icon"><i class="fab fa-linkedin"></i></div>
+            <div class="contact-link-text">
+              <div class="contact-link-label">LinkedIn</div>
+              <div class="contact-link-value">muhammad-usman-amjad</div>
+            </div>
+            <i class="fas fa-arrow-right contact-link-arrow"></i>
+          </a>
+          <a href="https://github.com/usman-bey-lab" target="_blank" class="contact-link-item">
+            <div class="contact-link-icon"><i class="fab fa-github"></i></div>
+            <div class="contact-link-text">
+              <div class="contact-link-label">GitHub</div>
+              <div class="contact-link-value">usman-bey-lab</div>
+            </div>
+            <i class="fas fa-arrow-right contact-link-arrow"></i>
+          </a>
+          <a href="tel:+923004170573" class="contact-link-item">
+            <div class="contact-link-icon"><i class="fas fa-phone"></i></div>
+            <div class="contact-link-text">
+              <div class="contact-link-label">Phone</div>
+              <div class="contact-link-value">+92-300-4170573</div>
+            </div>
+            <i class="fas fa-arrow-right contact-link-arrow"></i>
+          </a>
+        </div>
+      </div>
+      <div class="contact-cta">
+        <h3>Open to Work</h3>
+        <p>Looking for full-time, part-time, or freelance roles in full-stack web development. Available for immediate start.</p>
+        <div class="contact-cta-tags">
+          <span class="tech-tag">Full-Stack Dev</span>
+          <span class="tech-tag">MERN Stack</span>
+          <span class="tech-tag">Next.js</span>
+          <span class="tech-tag">TypeScript</span>
+          <span class="tech-tag">Remote / On-site</span>
+        </div>
+        <a href="resume.pdf" target="_blank" class="btn btn-primary" style="width:100%;justify-content:center">
+          <i class="fas fa-download"></i> Download Resume
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-copy">© 2026 Usman Amjad. Crafted with precision and passion.</div>
+      <div class="footer-links">
+        <a href="https://github.com/usman-bey-lab" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/muhammad-usman-amjad-2958a33a6" target="_blank">LinkedIn</a>
+        <a href="mailto:usmanamjad987654321@gmail.com" target="_blank" class="contact-link-item">
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
